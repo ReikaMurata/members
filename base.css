@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ====リセット==== */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin: 0; padding: 0;} table{ border-collapse: collapse; border-spacing: 0;} img{ border: none; vertical-align: bottom;} address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal;} article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display: block;}
+a,a:link, a:visited{ color: #1EAEBA; text-decoration: none;} a:hover{ text-decoration: underline;} label{ cursor: pointer;}
+html{
+	font-size: 87.5%;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	line-height: 1.8;
+	color: #262626;
+}
+input{
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	padding: 5px 10px;
+}
+.error{
+	color: #FF0004;
+}
+#input_form{
+	background: #F9F7F3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 100px auto;
+	padding: 30px;
+	width: 470px;
+}
+#input_form dt{
+	float: left;
+	width: 150px;
+	margin-bottom: 10px;
+}
+#input_form dd{
+	margin-left: 150px;
+	margin-bottom: 10px;
+	word-break: break-all;
+}
+.form_btn{
+	text-align: center;
+}
+.title{
+	font-size: 116.3%;
+	margin-bottom: 20px;
+}
+/*===========================================*/
+/*==クリアフィックス==*/
+/*===========================================*/
+.clearfix{ zoom: 100%;}.clearfix:after{ display: block; clear: both; content: "."; height: 0.1px; font-size: 0.1em; line-height: 0; visibility: hidden;
+} .clearfix{ display: inline-block;}
+/*\*/
+*html .clearfix{ height: 1px;} .clearfix{ display: block;}
+/**/
